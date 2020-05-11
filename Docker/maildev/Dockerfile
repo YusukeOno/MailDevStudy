@@ -1,0 +1,2 @@
+FROM maildev/maildev
+

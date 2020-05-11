@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  maildev:
+    container_name: mailev-container
+    build:
+      context: ./Docker/maildev/
+      dockerfile: Dockerfile
+    ports:
+      - "1080:80"
+      - "1025:25"
